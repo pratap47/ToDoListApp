@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="0dp"
+        android:textSize="25dp"
+        android:textColor="@color/textColor"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:id="@+id/txtTask"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="0.7"
+        android:layout_height="40dp"
+        android:background="@drawable/delete_icon"
+        android:id="@+id/btnDelete"/>
+    <android.support.v7.widget.SwitchCompat
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:theme="@style/StatusSwitch"
+        android:layout_height="wrap_content"
+        android:id="@+id/switchStatus"/>
+
+</LinearLayout>
